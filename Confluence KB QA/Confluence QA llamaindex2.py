@@ -18,8 +18,6 @@ load_dotenv()
 
 #from google.colab import userdata
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
-#GROQ_API_KEY = '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'
-#os.environ["GROQ_API_KEY"] = GROQ_API_KEY
 
 
 # Configure async mode for agent
@@ -34,7 +32,7 @@ Settings.embed_model = HuggingFaceEmbedding()
 
 # Load Confluence pages as documents
 reader = ConfluenceReader(
-    base_url="https://albertcortez.atlassian.net/wiki",
+    base_url="https://john_doe.atlassian.net/wiki",
     #user_name= userdata.get('Confluence_username')
     user_name = os.getenv('Confluence_username'),
     password = os.getenv('CONFLUENCE_API_TOKEN'),    
@@ -71,7 +69,7 @@ def chat_with_agent(query):
 
 iface = gr.Interface(
     fn=chat_with_agent,
-    inputs=gr.Textbox(label="Ask your question", placeholder="e.g., What are benefits of Charging and Billing Evolved in bullet points"),
+    inputs=gr.Textbox(label="Ask your question", placeholder="e.g., What are benefits of Product X in bullet points"),
     outputs="text",
     title="📚 Agent that can do Q&A with Confluence space content",
     description="Confluence Knowledge base (Ai agent prototype - built on LllamaIndex)",
