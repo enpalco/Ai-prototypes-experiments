@@ -1,7 +1,7 @@
 
 Some Ai agents prototypes I built for my own personal use cases using open source Python libraries:  
 
-1. Confluence Knowledge Base QA - query and ask about Confluence space content  
-2. PDF documents - query and ask about a PDF document including generating an executive summary.
-3. Research buddy -  can do research on the web for any topic and generates a final report with references/sources used.
+1. Confluence Knowledge Base - query and ask about Confluence pages content  
+2. PDF documents - query and ask about a PDF document's content including generating a summary of it.
+3. Research buddy -  ask to research any topic and generate a final report with the references/sources used from the internet.
 
