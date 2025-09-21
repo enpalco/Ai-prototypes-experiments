@@ -1,7 +1,7 @@
-Ai RAG agents prototypes for various use cases mainly QA (question and answer) againts documents. Initially focused on following: 
-1. Confluence Knowledge Base
-2. PDF document
 
-Working on future use case --- Research buddy that searches web for any topic and generates report with references/sources used for the report.
+Some Ai agents prototypes I built for my own personal use cases using open source Python libraries:  
 
-TEST only changes for sync and pull
+1. Confluence Knowledge Base QA - query and ask about Confluence space content  
+2. PDF documents - query and ask about a PDF document including generating an executive summary.
+3. Research buddy -  can do research on the web for any topic and generates a final report with references/sources used.
+
