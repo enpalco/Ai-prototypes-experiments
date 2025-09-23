@@ -1,5 +1,5 @@
 
-Some Ai agents prototypes I built for my own personal use cases using opensource Python libraries (e.g. LllamaIndex):  
+Some Ai agents prototypes I built for my own personal use cases using open source Python libraries like LllamaIndex:  
 
 1. Confluence Knowledge Base - query and ask about Confluence pages content  
 2. PDF documents - query and ask about a PDF document's content including generating a summary of it.
