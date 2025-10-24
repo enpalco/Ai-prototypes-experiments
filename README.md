@@ -5,7 +5,7 @@ Some Ai agents prototypes I built for my own personal use cases using open sourc
 2. PDF documents - query and ask about a PDF document's content including generating a summary of it.
 3. Research buddy (inspired by a featured Llama index tutorial) -  research any topic and generate a final report with citation of references used from the internet. Also saves your report in a PDF file for offline access.
 4. Meeting summarizer - takes a meeting transcription file as input and automatically generates summary of the main points discussed and action points.
-5. Value investing adviser - helps calculate a stock's intrinsic value using Ben Graham's formula to help decide in buying decision i.e. whether market price is cheap or not compared to its intrinsic value. It then gives a final recommendation with a summary of stock's key valuation metrics.    
+5. Value investing adviser - helps calculate a stock's intrinsic value using Ben Graham's formula to help decide in buying decision i.e. whether market price is reasonable or not compared to its real intrinsic value. It then gives a final recommendation with a summary of stock's key valuation metrics as reference.    
 
 Feel free to collaborate and improve on the code by sending pull requests.
 
